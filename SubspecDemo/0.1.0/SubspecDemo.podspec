@@ -35,11 +35,11 @@ Pod::Spec.new do |s|
   
   
   s.subspec 'ATool' do |ss|
-      ss.source_files = 'SubspecDemo/Classes/ATool/*{h,m}'
+      ss.source_files = 'SubspecDemo/Classes/ATool/**/*'
       ss.public_header_files = 'SubspecDemo/Classes/ATool/*.h'
   end
   s.subspec 'BTool' do |ss|
-      ss.source_files = 'SubspecDemo/Classes/BTool/*{h,m}'
+      ss.source_files = 'SubspecDemo/Classes/BTool/**/*'
       ss.public_header_files = 'SubspecDemo/Classes/BTool/*.h'
   end
   
